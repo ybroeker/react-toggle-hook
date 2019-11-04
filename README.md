@@ -17,6 +17,8 @@ const App = () => {
       <button onClick={enable}>Enable</button>
       <button onClick={disable}>Disable</button>
       <button onClick={toggle}>Toggle</button>
+
+      <input type="checkbox" checked={state} onChange={toggle}/>
     </div>
   )
 }
